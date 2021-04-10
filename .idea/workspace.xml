@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2524639-eccf-4da6-830f-484b978edb03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo_gin/README.md" afterDir="false" />
+    <list default="true" id="e2524639-eccf-4da6-830f-484b978edb03" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/demo_basic/basic_channel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_basic/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_basic/pub.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_basic/sub.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_gin/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/proto/helloworld.proto" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld/proto/helloworld.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +40,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -42,18 +51,51 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager">
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
+    <configuration name="go build helloworld" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <working_directory value="$PROJECT_DIR$/helloworld" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/helloworld/main.go" />
+      <package value="helloworld" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main.go" />
+      <filePath value="$PROJECT_DIR$/demo_gin/main.go" />
       <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/demo_basic/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="proto" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/helloworld/Makefile" target="proto" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="proto_default" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/helloworld/Makefile" target="proto_default" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build helloworld" />
+        <item itemvalue="Makefile.proto" />
+        <item itemvalue="Makefile.proto" />
       </list>
     </recent_temporary>
   </component>
@@ -71,6 +113,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
